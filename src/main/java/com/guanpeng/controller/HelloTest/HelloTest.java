@@ -16,6 +16,6 @@ public class HelloTest {
     @RequestMapping("/hello")
     @ResponseBody
     public String helloSpringboot() {
-        return "hello springboot";
+        return "hello springboot,我设置了端口号8082,启动路径/myboot";
     }
 }
